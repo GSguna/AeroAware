@@ -1,0 +1,76 @@
+#bg {
+   background: linear-gradient(#6467c039, #6467c00a, white, white, white, white, #6467c00a, #6467c039);
+   font-family: 'Open Sans', sans-serif;
+}
+
+img {
+   position: relative;
+   width: 65px;
+   height: 65px;
+}
+
+#traveller-img {
+   width: 100%;
+   height: 100%;
+}
+
+h1 {
+   position: relative;
+   font-size: 60px;
+   font-weight: bold;
+   color: #23286B;
+}
+
+h3 {
+   position: relative;
+   text-align: center;
+   font-size: 18px;
+   font-weight: 550;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   /*font-family: 'Open Sans', sans-serif;*/
+   padding: 10px;
+}
+
+h4 {
+   font-size: 16px;
+   margin-left: 15px;
+   color: #23286B;
+   font-weight: bold;
+}
+
+#landing-card {
+   margin-top: -15px;
+   align-items: center;
+   border-radius: 15px;
+   width: 1000px;
+   height: 400px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.075);
+   background-color: #dedede0c;
+}
+
+#info {
+   margin-left: 15px;
+   font-size: 14px;
+   color: rgb(52, 52, 52);
+}
+
+#sponsor-info {
+   font-size: 12px;
+   margin-left: 15px;
+   color: rgb(52, 52, 52);
+   padding-top: 50px;
+}
+
+#enter-button {
+   margin-top: 20px;
+   font-weight: bold;
+   font-size: 15px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   background-color: #23286B;
+   color: white;
+}
+
+#enter-button:hover {
+   background-color: #242c84;
+   cursor: pointer;
+}
