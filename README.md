@@ -1,6 +1,8 @@
 # AeroAware
 Aero Aware was created to aid users in their travel planning by predicting future flight prices. Our project, Aero Aware, is designed to help users make an informed decision on their travel plans by reducing the stress of spending countless hours on figuring out the best time to travel based on their financial constraints.
 
+## How to Run the Contents of this Repository
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
