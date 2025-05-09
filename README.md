@@ -41,3 +41,33 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+## Backend
+
+This is a Flask and Python based backend application that provides a secure API to connect to the backend predictive model. 
+
+### Optional (set up virtual environment)
+
+First, open a terminal:
+
+```
+cd Backend
+python3 -m venv venv
+source venv/bin/activate
+pip install [all the listed dependencies: python, flask, pydantic, Joblib, Pandas, Xgboost, Libomp, Flask_cors]
+# or (if using mac)
+sudo pip install [all the listed dependencies: python, flask, pydantic, Joblib, Pandas, Xgboost, Libomp, Flask_cors]
+flask --app api --debug run
+```
+
+The backend will run on [http://127.0.0.1:5000](http://127.0.0.1:5000).
+
+## Learn More
+
+To learn more about Flask, take a look at the following resources:
+
+- [Flask Documentation](https://flask.palletsprojects.com/en/stable/#) - learn about Flask and Flask Installation.
+- [Learn Flask](https://flask.palletsprojects.com/en/stable/tutorial/) - an official Flask tutorial.
+
+You can check out [the Flask GitHub repository](https://github.com/pallets/flask) - you can donate and make contributions!
